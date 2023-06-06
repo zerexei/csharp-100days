@@ -6,17 +6,24 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            // ++++++++++++> array <++++++++++++++++
+            int[] numbers = { 1, 3, 5, 7, 9 };
+            string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+            numbers.ToList().ForEach(i => Console.WriteLine(i.ToString()));
+            weekDays.ToList().ForEach(i => Console.WriteLine(i));
+
             // ++++++++++++> loop <++++++++++++++++
-            int i = 0;
-            do
-            {
-                Console.Write("Input: ");
-                string? name;
-                name = Console.ReadLine();
-                Console.WriteLine($"{i}: {name}");
-                if (i == 10) break;
-                i++;
-            } while (true);
+            // int i = 0;
+            // do
+            // {
+            //     Console.Write("Input: ");
+            //     string? name;
+            //     name = Console.ReadLine();
+            //     Console.WriteLine($"{i}: {name}");
+            //     if (i == 10) break;
+            //     i++;
+            // } while (true);
 
             // int i = 0;
             // while (i < 10)
