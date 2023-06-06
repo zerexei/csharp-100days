@@ -6,6 +6,37 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            // ++++++++++++> loop <++++++++++++++++
+            int i = 0;
+            do
+            {
+                Console.Write("Input: ");
+                string? name;
+                name = Console.ReadLine();
+                Console.WriteLine($"{i}: {name}");
+                if (i == 10) break;
+                i++;
+            } while (true);
+
+            // int i = 0;
+            // while (i < 10)
+            // {
+            //     Console.Write("Input: ");
+            //     string? name;
+            //     name = Console.ReadLine();
+            //     Console.WriteLine($"{i}: {name}");
+            //     i++;
+            // }
+
+            // for (int i = 0; i < 10; i++)
+            // {
+
+            //     Console.Write("Input: ");
+            //     string? name;
+            //     name = Console.ReadLine();
+            //     Console.WriteLine($"{i}: {name}");
+            // }
+
             // ++++++++++++> if statement <++++++++++++++++
             // int age = 15;
             // string status;
