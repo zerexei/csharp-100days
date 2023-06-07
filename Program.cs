@@ -6,34 +6,39 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            // ++++++++++++> array <++++++++++++++++
-
-            // int[] numbers = new int[5];
-            // numbers[0] = 11;
-            // numbers[1] = 12;
-            // numbers[2] = 13;
-            // numbers[3] = 14;
-            // numbers[4] = 15;
-
-            // numbers.ToList().ForEach(index,i => Console.WriteLine($"{i.ToString()} - {index}"));
-
-            // string[] words = { "a", "b", "c", "d" };
-            // char[] letters = new char[4] { 'a', 'b', 'c', 'd' };
-
-            // string letters = "qwnrcqnwbrjcn12n1r";
-            // char[] char_letters = letters.ToCharArray();
-            
-            // char_letters.ToList().ForEach(i => Console.WriteLine(i.ToString()));
-
-            // foreach (char item in char_letters)
-            // {
-            //     Console.WriteLine(item);
-            // }
-
+            HelloWorld();
         }
+
+        private static void HelloWorld()
+        {
+            Console.WriteLine("Hello World!");
+        }
+
     }
 }
+// ++++++++++++> array <++++++++++++++++
 
+// int[] numbers = new int[5];
+// numbers[0] = 11;
+// numbers[1] = 12;
+// numbers[2] = 13;
+// numbers[3] = 14;
+// numbers[4] = 15;
+
+// numbers.ToList().ForEach(index,i => Console.WriteLine($"{i.ToString()} - {index}"));
+
+// string[] words = { "a", "b", "c", "d" };
+// char[] letters = new char[4] { 'a', 'b', 'c', 'd' };
+
+// string letters = "abcdefghijkl";
+// char[] char_letters = letters.ToCharArray();
+
+// char_letters.ToList().ForEach(i => Console.WriteLine(i.ToString()));
+
+// foreach (char item in char_letters)
+// {
+//     Console.WriteLine(item);
+// }
 // int[] numbers = { 1, 3, 5, 7, 9 };
 // string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
