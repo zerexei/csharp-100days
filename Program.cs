@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 
 namespace HelloWorld
 {
@@ -6,11 +8,26 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Thank you");
+            Console.WriteLine(@"Thank you C\\:user");
+
         }
 
     }
 }
+
+// StringBuilder str = new StringBuilder();
+
+// for (int i = 0; i < 100; i++)
+// {
+//     str.Append("--");
+//     str.Append(i);
+// }
+
+// Console.WriteLine(str);
+
+// string str = "";
+// Console.ReadLine();
+// Console.WriteLine(string.Format("Phone {0: (###) ###-####}", 1234523473));
 
 // private static bool MainMenu()
 // {
