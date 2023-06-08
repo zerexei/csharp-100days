@@ -10,10 +10,28 @@ namespace HelloWorld
         {
             Console.WriteLine(@"Thank you C\\:user");
 
-        }
 
+            Console.WriteLine(string.Format("Phone {0:C}", 1234523473));
+            // Car car = new Car();
+            // Console.WriteLine(Car::GetModel());
+
+        }
     }
+
+    // class Car
+    // {
+    //     private string Model = "Foo";
+    //     // public string Color { get; set; }
+
+    //     public static string GetModel()
+    //     {
+    //         return this.Model;
+    //     }
+    // }
 }
+
+
+
 
 // StringBuilder str = new StringBuilder();
 
