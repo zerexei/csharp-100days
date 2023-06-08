@@ -6,16 +6,87 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            HelloWorld();
-        }
-
-        private static void HelloWorld()
-        {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Thank you");
         }
 
     }
 }
+
+// private static bool MainMenu()
+// {
+//     Console.WriteLine("Choose an option: ");
+//     Console.WriteLine("(1) Option 1");
+//     Console.WriteLine("(2) Option 2");
+//     Console.WriteLine("(3) Exit");
+
+//     string result = Console.ReadLine();
+
+//     if (result == "1")
+//     {
+//         PrintNumbers();
+//         return true;
+//     }
+//     else if (result == "2")
+//     {
+//         GuessingGame();
+//         return true;
+//     }
+//     else if (result == "3")
+//     {
+//         return false;
+//     }
+
+//     return false;
+// }
+
+// private static void PrintNumbers()
+// {
+//     Console.Clear();
+//     Console.WriteLine("Print numbers: ");
+//     Console.Write("Type a number: ");
+//     int result = int.Parse(Console.ReadLine());
+//     int counter = 1;
+
+//     while (counter < result + 1)
+//     {
+//         Console.Write(counter);
+//         Console.Write("-");
+//         counter++;
+//     }
+//     Console.ReadLine();
+// }
+
+// private static void GuessingGame()
+// {
+//     Console.Clear();
+//     Console.WriteLine("guess game");
+
+//     Random rand = new Random();
+
+//     int randNumber = rand.Next(1, 10);
+//     int guess = 0;
+
+//     int input;
+
+//     do
+//     {
+//         input = int.Parse(Console.ReadLine() ?? "0");
+//         if (guess > 5) break;
+//         guess++;
+//         Console.WriteLine("Wrong");
+
+//     } while (input != randNumber);
+
+//     if (guess > 5)
+//     {
+//         Console.WriteLine("Oops. You failed.");
+//         return;
+//     }
+
+
+//     Console.WriteLine("You won");
+// }
+
 // ++++++++++++> array <++++++++++++++++
 
 // int[] numbers = new int[5];
