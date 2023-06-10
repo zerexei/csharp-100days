@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 
-
 namespace HelloWorld
 {
     class Program
@@ -9,29 +8,82 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine(@"Thank you C\\:user");
-
-
-            Console.WriteLine(string.Format("Phone {0:C}", 1234523473));
-            // Car car = new Car();
-            // Console.WriteLine(Car::GetModel());
-
         }
     }
-
-    // class Car
-    // {
-    //     private string Model = "Foo";
-    //     // public string Color { get; set; }
-
-    //     public static string GetModel()
-    //     {
-    //         return this.Model;
-    //     }
-    // }
 }
 
+// class Car
+// {
+//     public string Model { get; set; } = "default Model";
+//     public string Year { get; set; } = "default Year";
+//     public string Color { get; set; } = "default Color";
+
+//     public Car(string? model, string? year, string? color)
+//     {
+//         Model = model;
+//         Year = year;
+//         Color = color;
+//     }
+
+//     public void Make()
+//     {
+//         Console.WriteLine("static called");
+//         Console.WriteLine($"{this.Model} - {this.Year} - {this.Color}");
+//     }
+
+//     internal void foo() { }
+//     public void foo() { }
+//     protected void bar() { }
+//     private void baz() { }
+// }
+
+//         Car car = new Car(
+//         model: "model --",
+//         year: "year --",
+//         color: "color --"
+//         );
+
+//         // car.Make = "-- make";
+//         // car.Make();
+//         // Car.Make();
+
+//         // car = null;
+
+//         Console.WriteLine($"{car.Make} - {car.Model} - {car.Year} - {car.Color}");
+//         // Console.WriteLine($"{car.GetType()}");
 
 
+// DateTime date = DateTime.Now;
+
+// Console.WriteLine(date.AddDays(3));
+// Console.WriteLine(date.AddDays(-3));
+// Console.WriteLine(date.AddHours(3));
+// Console.WriteLine(date.ToShortTimeString());
+// Console.WriteLine(date.ToLongTimeString());
+// Console.WriteLine(date.ToLongDateString());
+// Console.WriteLine(date.ToShortDateString());
+
+// DateTime birthDay = new DateTime(1912, 12, 12);
+
+// DateTime birthDay = DateTime.Parse("12/12/1912");
+// TimeSpan age = DateTime.Now.Subtract(birthDay);
+
+// Console.WriteLine(age.TotalDays);
+
+
+// Console.WriteLine(string.Format("Phone {0:C}", 1234523473));
+// Car car = new Car();
+// Console.WriteLine(Car::GetModel());
+// class Car
+// {
+//     private string Model = "Foo";
+//     // public string Color { get; set; }
+
+//     public static string GetModel()
+//     {
+//         return this.Model;
+//     }
+// }
 
 // StringBuilder str = new StringBuilder();
 
