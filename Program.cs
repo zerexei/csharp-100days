@@ -2,7 +2,7 @@
 using System.Text;
 
 using Foo;
-using Bar.Foo;
+using WorkingWithCollection;
 
 namespace HelloWorld
 {
@@ -13,7 +13,9 @@ namespace HelloWorld
             Scrape scrape = new Scrape();
             scrape.ScrapeWebPage();
 
-            Foo.Fooz();
+            Collection collection = new Collection();
+            collection.log();
+
             Console.WriteLine(@"Thank you C\\:user");
         }
     }
