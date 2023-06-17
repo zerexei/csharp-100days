@@ -5,7 +5,7 @@ namespace WorkingWithCollection
 {
     class Collection
     {
-        public void log()
+        public void Log()
         {
             Car car1 = new Car();
             Car car2 = new Car();
@@ -63,9 +63,9 @@ namespace WorkingWithCollection
     class Car
     {
 
-        public string Prop1;
-        public string Prop2;
-        public string Prop3;
+        // public string Prop1;
+        // public string Prop2;
+        // public string Prop3;
 
 
 
