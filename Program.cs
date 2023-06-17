@@ -3,7 +3,8 @@ using System.Text;
 
 // using Foo;
 // using WorkingWithCollection;
-using EnumAndSwitch;
+// using EnumAndSwitch;
+using EventExample;
 
 namespace HelloWorld
 {
@@ -17,7 +18,9 @@ namespace HelloWorld
             // Collection collection = new Collection();
             // collection.log();
 
-            Sweech.Log();
+            // Sweech.Log();
+
+            EventFoo.Log();
 
             Console.WriteLine(@"Thank you C\\:user");
         }
