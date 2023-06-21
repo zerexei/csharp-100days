@@ -8,7 +8,6 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World!");
 
-            HelloWorld.EnumExample.Log();
         }
     }
 }
